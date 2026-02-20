@@ -41,16 +41,18 @@ export function About() {
             miliki membantu saya bekerja secara terstruktur, teliti, dan cepat
             beradaptasi dengan sistem yang digunakan.
           </p>
-
-          <p>Berikut beberapa kemampuan yang saya gunakan sehari-hari:</p>
+          <p>
+            Berikut beberapa kemampuan yang saya miliki dan relevan dengan
+            bidang administrasi dan pengolahan data:
+          </p>
 
           <ul className="grid grid-cols-2 gap-x-8 gap-y-2 font-mono text-sm">
             {[
               "Microsoft Word",
               "Microsoft Excel / Google Sheets",
               "Pengolahan & Verifikasi Data",
-              "Administrasi Dokumen & Arsip",
-              "Input & Rekap Laporan",
+              "Manajemen Database Dasar",
+              "Analisis Data Dasar",
               "Penggunaan Sistem Digital",
             ].map((skill) => (
               <li
