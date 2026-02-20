@@ -27,33 +27,38 @@ export function About() {
       >
         <div className="space-y-4 leading-relaxed text-muted-foreground lg:col-span-2">
           <p>
-            Halo! Saya Aliva, seorang fresh graduate yang memiliki passion dalam
-            pengembangan web dan dunia frontend. Ketertarikan saya pada
-            teknologi dimulai sejak tahun 2018 ketika saya mencoba membuat
-            website pertama saya.
+            Halo! Saya Aliva, seorang fresh graduate dengan peminatan Data
+            Science yang memiliki minat dalam bidang administrasi dan
+            pengelolaan data. Selain itu, saya juga memiliki pengalaman sebagai
+            Frontend Engineer sehingga terbiasa bekerja dengan sistem digital
+            dan teknologi berbasis data.
           </p>
+
           <p>
-            Saat ini, saya fokus mengembangkan aplikasi web modern menggunakan
-            teknologi seperti Saya terus mengasah kemampuan melalui project
-            pribadi dan eksplorasi teknologi terbaru untuk membangun pengalaman
-            digital yang clean, responsif, dan user-friendly.
+            Saat ini, saya fokus mengembangkan kemampuan dalam pengolahan dan
+            verifikasi data, penyusunan dokumen administrasi, serta pengelolaan
+            arsip secara rapi dan efisien. Latar belakang teknologi yang saya
+            miliki membantu saya bekerja secara terstruktur, teliti, dan cepat
+            beradaptasi dengan sistem yang digunakan.
           </p>
-          <p>Berikut beberapa teknologi yang saya gunakan sehari-hari:</p>
+
+          <p>Berikut beberapa kemampuan yang saya gunakan sehari-hari:</p>
+
           <ul className="grid grid-cols-2 gap-x-8 gap-y-2 font-mono text-sm">
             {[
-              "JavaScript (ES6+)",
-              "TypeScript",
-              "React / Next.js",
-              "Node.js",
-              "Tailwind CSS",
-              "Firebase",
-            ].map((tech) => (
+              "Microsoft Word",
+              "Microsoft Excel / Google Sheets",
+              "Pengolahan & Verifikasi Data",
+              "Administrasi Dokumen & Arsip",
+              "Input & Rekap Laporan",
+              "Penggunaan Sistem Digital",
+            ].map((skill) => (
               <li
-                key={tech}
+                key={skill}
                 className="flex items-center gap-2 text-secondary-foreground"
               >
                 <span className="text-primary">{">"}</span>
-                {tech}
+                {skill}
               </li>
             ))}
           </ul>

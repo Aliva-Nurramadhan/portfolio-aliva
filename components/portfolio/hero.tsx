@@ -27,11 +27,17 @@ export function Hero() {
           <span className="text-balance">Muhammad Aliva Nurramadhan</span>
         </h1>
         <h2 className="mb-6 text-3xl font-bold tracking-tight text-muted-foreground sm:text-4xl lg:text-5xl">
-          <span className="text-balance">Front End Developer </span>
+          <span className="text-balance">
+            {" "}
+            Data Science | Frontend Enthusiast{" "}
+          </span>
         </h2>
         <p className="max-w-lg leading-relaxed text-muted-foreground">
-          Fresh graduate yang berfokus pada pengembangan aplikasi web dan mobile
-          modern dengan antarmuka responsif dan user-friendly.
+          Fresh graduate dengan peminatan Data Science yang berfokus pada
+          pengelolaan dan pengolahan data secara terstruktur,
+          teliti, dan sistematis. Memiliki latar belakang sebagai Frontend
+          Engineer yang terbiasa bekerja dengan sistem digital dan teknologi
+          berbasis data.
         </p>
       </div>
 
