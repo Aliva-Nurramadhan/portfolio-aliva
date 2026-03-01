@@ -27,33 +27,33 @@ export function About() {
       >
         <div className="space-y-4 leading-relaxed text-muted-foreground lg:col-span-2">
           <p>
-            Halo! Saya Aliva, seorang fresh graduate dengan peminatan Data
-            Science yang memiliki minat dalam bidang administrasi dan
-            pengelolaan data. Selain itu, saya juga memiliki pengalaman sebagai
-            Frontend Engineer sehingga terbiasa bekerja dengan sistem digital
-            dan teknologi berbasis data.
+            Halo! Saya Aliva, seorang fresh graduate yang memiliki ketertarikan
+            dalam pengembangan aplikasi web dan pengolahan data. Ketertarikan
+            saya pada dunia teknologi dimulai ketika saya mulai mempelajari
+            pengembangan web dan membangun proyek-proyek sederhana untuk
+            mengasah kemampuan saya.
           </p>
 
           <p>
-            Saat ini, saya fokus mengembangkan kemampuan dalam pengolahan dan
-            verifikasi data, penyusunan dokumen administrasi, serta pengelolaan
-            arsip secara rapi dan efisien. Latar belakang teknologi yang saya
-            miliki membantu saya bekerja secara terstruktur, teliti, dan cepat
-            beradaptasi dengan sistem yang digunakan.
+            Sebagai lulusan dengan peminatan Data Science dan pengalaman sebagai
+            Frontend Engineer, saya terbiasa membangun aplikasi berbasis web
+            yang terstruktur, responsif, dan efisien. Saya senang mempelajari
+            teknologi baru dan terus mengembangkan keterampilan untuk
+            menciptakan solusi digital yang bermanfaat.
           </p>
-          <p>
-            Berikut beberapa kemampuan yang saya miliki dan relevan dengan
-            bidang administrasi dan pengolahan data:
-          </p>
+          <p>Berikut beberapa teknologi yang saya gunakan:</p>
 
           <ul className="grid grid-cols-2 gap-x-8 gap-y-2 font-mono text-sm">
             {[
-              "Microsoft Word",
-              "Microsoft Excel / Google Sheets",
-              "Pengolahan & Verifikasi Data",
-              "Manajemen Database Dasar",
-              "Analisis Data Dasar",
-              "Penggunaan Sistem Digital",
+              "Python",
+              "Pandas",
+              "SQL",
+              "Figma",
+              "JavaScript (ES6+)",
+              "React / Next.js",
+              "Tailwind CSS",
+              "TypeScript",
+              "Firebase",
             ].map((skill) => (
               <li
                 key={skill}
