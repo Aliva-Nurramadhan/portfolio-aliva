@@ -67,16 +67,6 @@ export function Navbar() {
                 </a>
               </li>
             ))}
-            <li>
-              <a
-                href="/resume.pdf"
-                className="rounded-md border border-primary px-4 py-2 font-mono text-sm text-primary transition-colors hover:bg-primary/10"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Resume
-              </a>
-            </li>
           </ul>
 
           {/* Mobile Menu Button */}
