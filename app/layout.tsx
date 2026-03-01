@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains" });
 
 export const metadata: Metadata = {
-  title: 'Portfolio | Full Stack Developer',
+  title: ' Portofolio | Aliva',
   description: 'Full stack developer specializing in building exceptional digital experiences. Focused on creating accessible, pixel-perfect interfaces.',
   generator: 'v0.app',
   icons: {
