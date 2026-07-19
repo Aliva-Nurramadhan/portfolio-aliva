@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+<style>
+.stroke{fill:none;stroke:#111;stroke-width:10;stroke-linecap:round;stroke-linejoin:round}
+</style>
+
+<g id="face" transform="rotate(-12 317 246)">
+<!-- Head -->
+<path id="head" class="stroke"
+d="M312,108
+C270,104 226,122 202,152
+C180,180 172,222 180,262
+C186,296 208,332 248,355
+C292,381 352,384 396,357
+C438,331 462,286 458,238
+C455,196 432,156 394,132
+C368,116 340,111 312,108Z"/>
+
+<!-- Hair -->
+<path class="stroke" d="M232 178 L202 144"/>
+<path class="stroke" d="M280 138 L270 98"/>
+<path class="stroke" d="M345 128 L345 88"/>
+<path class="stroke" d="M408 140 L420 98"/>
+
+<!-- Glasses -->
+<path id="glasses" class="stroke"
+d="M235 210
+Q235 180 265 180
+L325 180
+Q355 180 355 210
+L355 250
+Q355 280 325 280
+L265 280
+Q235 280 235 250Z"/>
+
+<path class="stroke"
+d="M355 225 L385 225"/>
+
+<path class="stroke"
+d="M385 210
+Q385 180 415 180
+L475 180
+Q505 180 505 210
+L505 250
+Q505 280 475 280
+L415 280
+Q385 280 385 250Z"/>
+
+<circle cx="295" cy="228" r="6" fill="#111"/>
+<circle cx="445" cy="228" r="6" fill="#111"/>
+
+<path class="stroke" d="M336 305 Q350 322 364 305"/>
+</g>
+
+<!-- Neck -->
+<path class="stroke" d="M318 384 C316 398 328 410 345 420"/>
+
+<!-- Body -->
+<path id="body" class="stroke"
+d="M206 734
+C200 588 244 466 345 420
+C453 469 496 586 493 734"/>
+
+<!-- Left arm -->
+<path id="left-arm" class="stroke"
+d="M255 468
+C208 500 172 565 172 640"/>
+
+<!-- Right arm -->
+<g id="right-arm">
+<path class="stroke"
+d="M447 468
+C560 420 650 300 650 150"/>
+<path class="stroke"
+d="M650 150
+C666 134 689 135 700 152
+C710 169 706 192 689 202
+C671 212 648 206 639 188
+C633 176 637 160 650 150Z"/>
+</g>
+
+</svg>
