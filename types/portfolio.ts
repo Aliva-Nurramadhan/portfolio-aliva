@@ -20,7 +20,7 @@ export interface Experience {
 
 export interface Skill {
   name: string;
-  category: "data" | "frontend" | "design" | "tools";
+  category: "data" | "frontend" | "design" | "tools" | "backend" | "mobile";
 }
 
 export interface SocialLink {
