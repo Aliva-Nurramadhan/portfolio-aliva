@@ -59,18 +59,18 @@ export function SkillsSection() {
                   scale: 1.15,
                   rotate: index % 2 === 0 ? 6 : -6,
                 }}
-                className="group relative flex h-16 w-16 md:h-20 md:w-20 cursor-pointer items-center justify-center rounded-2xl border-2 border-transparent bg-transparent transition-colors duration-300 hover:border-text-primary hover:bg-bg hover:shadow-[4px_4px_0px_rgba(0,0,0,1)] active:border-text-primary active:bg-bg active:shadow-[4px_4px_0px_rgba(0,0,0,1)]"
+                className="group relative flex h-16 w-16 md:h-20 md:w-20 cursor-pointer items-center justify-center rounded-2xl border-2 border-transparent bg-transparent transition-colors duration-300 hover:border-text-primary hover:bg-bg hover:shadow-[4px_4px_0px_rgba(0,0,0,1)] active:border-text-primary active:bg-bg active:shadow-[4px_4px_0px_rgba(0,0,0,1)] select-none [-webkit-touch-callout:none]"
               >
                 {iconSrc && (
                   <div 
-                    className="relative h-12 w-12 md:h-14 md:w-14 opacity-90 transition-all duration-300 group-hover:opacity-100 group-active:opacity-100 grayscale-0 hover:grayscale-0" 
+                    className="relative h-12 w-12 md:h-14 md:w-14 opacity-90 transition-all duration-300 group-hover:opacity-100 group-active:opacity-100 grayscale-0 hover:grayscale-0 pointer-events-none" 
                     style={{
                       filter: skill.name === 'Flutter' 
                         ? "drop-shadow(1px 1px 0px #0C0C0C) drop-shadow(-1px -1px 0px #0C0C0C) drop-shadow(1px -1px 0px #0C0C0C) drop-shadow(-1px 1px 0px #0C0C0C)" 
                         : "drop-shadow(0.2px 0.2px 0px #0C0C0C) drop-shadow(-0.2px -0.2px 0px #0C0C0C) drop-shadow(0.2px -0.2px 0px #0C0C0C) drop-shadow(-0.2px 0.2px 0px #0C0C0C)"
                     }}
                   >
-                    <Image src={skill.name === 'Flutter' ? `${iconSrc}?v=9` : iconSrc} alt={skill.name} fill sizes="56px" className="object-contain" />
+                    <Image src={skill.name === 'Flutter' ? `${iconSrc}?v=9` : iconSrc} alt={skill.name} fill sizes="56px" className="object-contain" draggable={false} />
                   </div>
                 )}
 
