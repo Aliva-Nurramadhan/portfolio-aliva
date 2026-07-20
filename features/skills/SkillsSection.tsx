@@ -59,7 +59,9 @@ export function SkillsSection() {
                   scale: 1.15,
                   rotate: index % 2 === 0 ? 6 : -6,
                 }}
-                className="group relative flex h-16 w-16 md:h-20 md:w-20 cursor-pointer items-center justify-center rounded-2xl border-2 border-transparent bg-transparent transition-colors duration-300 hover:border-text-primary hover:bg-bg hover:shadow-[4px_4px_0px_rgba(0,0,0,1)] active:border-text-primary active:bg-bg active:shadow-[4px_4px_0px_rgba(0,0,0,1)] select-none [-webkit-touch-callout:none]"
+                className="group relative flex h-16 w-16 md:h-20 md:w-20 cursor-pointer items-center justify-center rounded-2xl border-2 border-transparent bg-transparent transition-colors duration-300 hover:border-text-primary hover:bg-bg hover:shadow-[4px_4px_0px_rgba(0,0,0,1)] active:border-text-primary active:bg-bg active:shadow-[4px_4px_0px_rgba(0,0,0,1)] select-none"
+                onContextMenu={(e) => e.preventDefault()}
+                style={{ WebkitTouchCallout: "none", userSelect: "none" } as React.CSSProperties}
               >
                 {iconSrc && (
                   <div 
