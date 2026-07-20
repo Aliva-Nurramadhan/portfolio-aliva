@@ -54,11 +54,16 @@ export function SkillsSection() {
                   scale: 1.15,
                   rotate: index % 2 === 0 ? 6 : -6,
                 }}
-                className="group relative flex h-16 w-16 md:h-20 md:w-20 cursor-pointer items-center justify-center rounded-2xl border-2 border-transparent bg-transparent transition-colors duration-300 hover:border-text-primary hover:bg-bg hover:shadow-[4px_4px_0px_rgba(0,0,0,1)]"
+                whileTap={{
+                  y: -8,
+                  scale: 1.15,
+                  rotate: index % 2 === 0 ? 6 : -6,
+                }}
+                className="group relative flex h-16 w-16 md:h-20 md:w-20 cursor-pointer items-center justify-center rounded-2xl border-2 border-transparent bg-transparent transition-colors duration-300 hover:border-text-primary hover:bg-bg hover:shadow-[4px_4px_0px_rgba(0,0,0,1)] active:border-text-primary active:bg-bg active:shadow-[4px_4px_0px_rgba(0,0,0,1)]"
               >
                 {iconSrc && (
                   <div 
-                    className="relative h-12 w-12 md:h-14 md:w-14 opacity-90 transition-all duration-300 group-hover:opacity-100 grayscale-0 hover:grayscale-0" 
+                    className="relative h-12 w-12 md:h-14 md:w-14 opacity-90 transition-all duration-300 group-hover:opacity-100 group-active:opacity-100 grayscale-0 hover:grayscale-0" 
                     style={{
                       filter: skill.name === 'Flutter' 
                         ? "drop-shadow(1px 1px 0px #0C0C0C) drop-shadow(-1px -1px 0px #0C0C0C) drop-shadow(1px -1px 0px #0C0C0C) drop-shadow(-1px 1px 0px #0C0C0C)" 
@@ -70,7 +75,7 @@ export function SkillsSection() {
                 )}
 
                 {/* Tooltip */}
-                <div className="pointer-events-none absolute -top-12 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-lg bg-text-primary px-3 py-1.5 text-xs font-bold text-bg opacity-0 transition-all duration-300 group-hover:-translate-y-1 group-hover:opacity-100 z-10 shadow-xl">
+                <div className="pointer-events-none absolute -top-12 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-lg bg-text-primary px-3 py-1.5 text-xs font-bold text-bg opacity-0 transition-all duration-300 group-hover:-translate-y-1 group-hover:opacity-100 group-active:-translate-y-1 group-active:opacity-100 z-10 shadow-xl">
                   {skill.name}
                   {/* Tooltip arrow */}
                   <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 border-4 border-transparent border-t-text-primary" />

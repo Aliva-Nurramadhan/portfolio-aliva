@@ -84,11 +84,11 @@ export function ContactSection() {
             <MagneticButton
               as="a"
               href={`mailto:${OWNER.email}`}
-              className="group inline-flex items-center gap-3 rounded-full border-[3px] border-text-primary bg-text-primary px-10 py-4 text-base font-medium text-bg transition-all duration-300 hover:-translate-y-1 hover:rotate-2 hover:shadow-[6px_6px_0px_#0C0C0C] hover:bg-text-primary hover:text-bg"
+              className="group inline-flex items-center gap-3 rounded-full border-[3px] border-text-primary bg-text-primary px-10 py-4 text-base font-medium text-bg transition-all duration-300 hover:-translate-y-1 hover:rotate-2 hover:shadow-[6px_6px_0px_#0C0C0C] hover:bg-text-primary hover:text-bg active:-translate-y-1 active:rotate-2 active:shadow-[6px_6px_0px_#0C0C0C] active:bg-text-primary active:text-bg"
               ariaLabel="Send email"
             >
               Say Hello
-              <span className="inline-block transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-0.5">
+              <span className="inline-block transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-0.5 group-active:translate-x-1 group-active:-translate-y-0.5">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M4,12 Q12,10 19,12 M13,5 Q17,9 19,12 Q15,16 12,19" />
                 </svg>
@@ -109,7 +109,7 @@ export function ContactSection() {
                   href={link.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group flex h-12 w-12 items-center justify-center rounded-lg border-2 border-dashed border-text-muted bg-transparent text-text-muted transition-all duration-300 hover:border-solid hover:border-text-primary hover:bg-text-primary hover:text-bg hover:scale-110 hover:-rotate-6"
+                  className="group flex h-12 w-12 items-center justify-center rounded-lg border-2 border-dashed border-text-muted bg-transparent text-text-muted transition-all duration-300 hover:border-solid hover:border-text-primary hover:bg-text-primary hover:text-bg hover:scale-110 hover:-rotate-6 active:border-solid active:border-text-primary active:bg-text-primary active:text-bg active:scale-110 active:-rotate-6"
                   strength={0.4}
                   ariaLabel={link.name}
                 >
